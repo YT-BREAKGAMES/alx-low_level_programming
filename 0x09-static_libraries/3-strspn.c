@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strspn - Entry point
- * @s: input
- * @accept: input
- * Return: Always 0 (Success)
+ * _strspn - a function that gets the length of a prefix substring
+ * @s: string
+ * @accept: bytes
+ * Return: unsigned int.
  */
 unsigned int _strspn(char *s, char *accept)
 {
